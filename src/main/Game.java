@@ -57,9 +57,6 @@ public class Game implements ApplicationListener {
 		}
 		
 		sb.setProjectionMatrix(hudCam.combined);
-		sb.begin();
-		sb.draw(res.getTexture("bunny"), 0, 0);
-		sb.end();
 		
 	}
 
