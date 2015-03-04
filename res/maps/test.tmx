@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="Blue" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AbMaHgwgMHoplEwCmgNAFKgABk=
+  </data>
+ </layer>
+ <layer name="Green" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaASYceDAAAAvYAA0=
+  </data>
+ </layer>
+ <layer name="Red" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAoYseBRMPQAAA3AAAY=
+  </data>
+ </layer>
+ <objectgroup name="Crystals"/>
+</map>
