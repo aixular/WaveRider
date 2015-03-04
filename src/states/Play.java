@@ -122,13 +122,15 @@ public class Play extends GameState{
 
 
 		// create foot sensor
-		shape.setAsBox( 13 / PPM, 2 / PPM, new Vector2(0, -13 / PPM), 0);
+		shape.setAsBox( 6 / PPM, 2 / PPM, new Vector2(0, -13 / PPM), 0);
 		fdef.shape = shape;
 		fdef.isSensor = true;
 		body.createFixture(fdef).setUserData("foot");
 	
 		// create player
 		player = new Player(body);
+		
+		body.setUserData(player);
 	}
 
 	private void createTiles(){
