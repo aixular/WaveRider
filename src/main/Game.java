@@ -10,6 +10,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+import entities.HUD;
+
 public class Game implements ApplicationListener {
 	
 	public static final String TITLE = "Wave Rider";
@@ -25,7 +27,7 @@ public class Game implements ApplicationListener {
 	private OrthographicCamera hudCam;
 
 	private GameStateManager gsm;
-
+	
 	public static Content res;
 	
 	public void create() {
@@ -36,6 +38,7 @@ public class Game implements ApplicationListener {
 		res = new Content();
 		res.loadTexture("res/images/bunny.png", "bunny");
 		res.loadTexture("res/images/crystal.png", "crystal");
+		res.loadTexture("res/images/hud.png", "hud");
 		
 		sb = new SpriteBatch();
 		cam = new OrthographicCamera();
