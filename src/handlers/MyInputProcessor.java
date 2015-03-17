@@ -6,10 +6,10 @@ import com.badlogic.gdx.InputAdapter;
 public class MyInputProcessor extends InputAdapter{
 
 	public boolean keyDown(int k){
-		if (k == Keys.W) {
+		if (k == Keys.X) {
 			MyInput.setKey(MyInput.BUTTON1, true);
 		}
-		if (k == Keys.A) {
+		if (k == Keys.Z) {
 			MyInput.setKey(MyInput.BUTTON2, true);
 		}
 //		if (k == Keys.S) {
@@ -22,10 +22,10 @@ public class MyInputProcessor extends InputAdapter{
 	}
 	
 	public boolean keyUp(int k){
-		if (k == Keys.W) {
+		if (k == Keys.X) {
 			MyInput.setKey(MyInput.BUTTON1, false);
 		}
-		if (k == Keys.A) {
+		if (k == Keys.Z) {
 			MyInput.setKey(MyInput.BUTTON2, false);
 		}
 //		if (k == Keys.S) {
